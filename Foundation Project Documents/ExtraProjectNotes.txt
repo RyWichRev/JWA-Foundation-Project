@@ -1,0 +1,21 @@
+An Epic is meant to be the broadest organizational tool or category
+
+Example Test Case in Jira
+Title: User Registration Unique Username Requirement Test Case
+
+Description: Validating users can open a new User account with 
+the Planetarium when they provide a valid password and a unique 
+username, and if the username is not unique their account should 
+not be created
+
+Pre-conditions: 
+Username "Deadpool" not present in database
+Username "Batman" present in database
+Username with no characters is not present in database
+Username "HelloMyNameIsRyanAndThisIsTest" not present in database
+
+Priority: Medium
+
+Status: Published
+
+Type: Functional
